@@ -1,8 +1,10 @@
 import Link from "next/link";
+import Icon from "./Icon";
 
 const Navbar = () => {
   return (
     <nav>
+      
       <div className='logo'>
         <h1>(navbar) Puppy List </h1>
       </div>

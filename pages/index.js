@@ -10,9 +10,9 @@ export default function Home() {
     <div>
      
       <div>
-        <h1>Hello Tortuga</h1>
+        <h1 className={styles.title}>Hello Tortuga</h1>
         <Link href='george'>
-          <a>See George</a>
+          <a className={styles.btn}>See George</a>
         </Link>
       </div>
       
