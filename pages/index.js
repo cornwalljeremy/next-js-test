@@ -7,6 +7,12 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
+    <>
+    <Head>
+      <title>Jeremy Cornwall | Home</title>
+      <meta name="keywords" content="Jeremy Cornwall" />
+
+    </Head>
     <div>
      
       <div>
@@ -17,5 +23,6 @@ export default function Home() {
       </div>
       
     </div>
+    </>
   );
 }
